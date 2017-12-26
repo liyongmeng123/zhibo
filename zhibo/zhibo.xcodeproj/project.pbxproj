@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1C6B8B475E2BB0051E4004 /* libPods-zhibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCEC847FF78C456879620FE /* libPods-zhibo.a */; };
+		E806BDE61FC0872200602198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E806BDE51FC0872200602198 /* main.m */; };
+		E806BDE91FC0872200602198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E806BDE81FC0872200602198 /* AppDelegate.m */; };
+		E806BDEC1FC0872200602198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E806BDEB1FC0872200602198 /* ViewController.m */; };
+		E806BDEF1FC0872200602198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806BDED1FC0872200602198 /* Main.storyboard */; };
+		E806BDF11FC0872200602198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E806BDF01FC0872200602198 /* Assets.xcassets */; };
+		E806BDF41FC0872200602198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806BDF21FC0872200602198 /* LaunchScreen.storyboard */; };
+		E806BDFF1FC0872200602198 /* zhiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E806BDFE1FC0872200602198 /* zhiboTests.m */; };
+		E806BE0A1FC0872200602198 /* zhiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E806BE091FC0872200602198 /* zhiboUITests.m */; };
+		E8C523D41FD552A80008B6A2 /* LYMAnchorListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C523D21FD552A80008B6A2 /* LYMAnchorListTableViewCell.m */; };
+		E8C523D51FD552A80008B6A2 /* LYMAnchorListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C523D31FD552A80008B6A2 /* LYMAnchorListTableViewCell.xib */; };
+		E8E047EB1FD2B10200E7EB4F /* LYMAnchorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E047EA1FD2B10200E7EB4F /* LYMAnchorListViewController.m */; };
+		E8E047EE1FD2B61700E7EB4F /* LYMListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E047ED1FD2B61700E7EB4F /* LYMListItem.m */; };
+		E8E047F11FD2B79800E7EB4F /* LYMCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E047F01FD2B79800E7EB4F /* LYMCreatorItem.m */; };
+		E8ED6D361FC1914400F01873 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D351FC1914400F01873 /* IJKMediaFramework.framework */; };
+		E8ED6D381FC191A000F01873 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D371FC191A000F01873 /* libz.tbd */; };
+		E8ED6D3A1FC191B200F01873 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D391FC191B200F01873 /* libbz2.tbd */; };
+		E8ED6D3C1FC191C800F01873 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D3B1FC191C800F01873 /* AudioToolbox.framework */; };
+		E8ED6D3E1FC191D300F01873 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D3D1FC191D300F01873 /* AVFoundation.framework */; };
+		E8ED6D401FC191E700F01873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D3F1FC191E700F01873 /* CoreGraphics.framework */; };
+		E8ED6D421FC191F200F01873 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D411FC191F200F01873 /* CoreMedia.framework */; };
+		E8ED6D441FC1920D00F01873 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D431FC1920D00F01873 /* CoreVideo.framework */; };
+		E8ED6D461FC1921D00F01873 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D451FC1921D00F01873 /* MediaPlayer.framework */; };
+		E8ED6D481FC1922E00F01873 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D471FC1922E00F01873 /* MobileCoreServices.framework */; };
+		E8ED6D4A1FC1923600F01873 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D491FC1923600F01873 /* OpenGLES.framework */; };
+		E8ED6D4C1FC1923E00F01873 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D4B1FC1923E00F01873 /* QuartzCore.framework */; };
+		E8ED6D4E1FC1925300F01873 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8ED6D4D1FC1925300F01873 /* VideoToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E806BDFB1FC0872200602198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E806BDD91FC0872200602198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E806BDE01FC0872200602198;
+			remoteInfo = zhibo;
+		};
+		E806BE061FC0872200602198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E806BDD91FC0872200602198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E806BDE01FC0872200602198;
+			remoteInfo = zhibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D21B88682BEB654D40731B0 /* Pods-zhibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhibo/Pods-zhibo.debug.xcconfig"; sourceTree = "<group>"; };
+		9885AE8E465601F2A4E7F760 /* Pods-zhibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhibo/Pods-zhibo.release.xcconfig"; sourceTree = "<group>"; };
+		BBCEC847FF78C456879620FE /* libPods-zhibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806BDE11FC0872200602198 /* zhibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806BDE51FC0872200602198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E806BDE71FC0872200602198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E806BDE81FC0872200602198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E806BDEA1FC0872200602198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E806BDEB1FC0872200602198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E806BDEE1FC0872200602198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E806BDF01FC0872200602198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E806BDF31FC0872200602198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E806BDF51FC0872200602198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E806BDFA1FC0872200602198 /* zhiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806BDFE1FC0872200602198 /* zhiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhiboTests.m; sourceTree = "<group>"; };
+		E806BE001FC0872200602198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E806BE051FC0872200602198 /* zhiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806BE091FC0872200602198 /* zhiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhiboUITests.m; sourceTree = "<group>"; };
+		E806BE0B1FC0872200602198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C523D11FD552A80008B6A2 /* LYMAnchorListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMAnchorListTableViewCell.h; sourceTree = "<group>"; };
+		E8C523D21FD552A80008B6A2 /* LYMAnchorListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMAnchorListTableViewCell.m; sourceTree = "<group>"; };
+		E8C523D31FD552A80008B6A2 /* LYMAnchorListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYMAnchorListTableViewCell.xib; sourceTree = "<group>"; };
+		E8E047E91FD2B10200E7EB4F /* LYMAnchorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMAnchorListViewController.h; sourceTree = "<group>"; };
+		E8E047EA1FD2B10200E7EB4F /* LYMAnchorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMAnchorListViewController.m; sourceTree = "<group>"; };
+		E8E047EC1FD2B61700E7EB4F /* LYMListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMListItem.h; sourceTree = "<group>"; };
+		E8E047ED1FD2B61700E7EB4F /* LYMListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMListItem.m; sourceTree = "<group>"; };
+		E8E047EF1FD2B79800E7EB4F /* LYMCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMCreatorItem.h; sourceTree = "<group>"; };
+		E8E047F01FD2B79800E7EB4F /* LYMCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMCreatorItem.m; sourceTree = "<group>"; };
+		E8ED6D351FC1914400F01873 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		E8ED6D371FC191A000F01873 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E8ED6D391FC191B200F01873 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E8ED6D3B1FC191C800F01873 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E8ED6D3D1FC191D300F01873 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E8ED6D3F1FC191E700F01873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8ED6D411FC191F200F01873 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E8ED6D431FC1920D00F01873 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E8ED6D451FC1921D00F01873 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E8ED6D471FC1922E00F01873 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E8ED6D491FC1923600F01873 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E8ED6D4B1FC1923E00F01873 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E8ED6D4D1FC1925300F01873 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E806BDDE1FC0872200602198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ED6D4E1FC1925300F01873 /* VideoToolbox.framework in Frameworks */,
+				E8ED6D4C1FC1923E00F01873 /* QuartzCore.framework in Frameworks */,
+				E8ED6D4A1FC1923600F01873 /* OpenGLES.framework in Frameworks */,
+				E8ED6D481FC1922E00F01873 /* MobileCoreServices.framework in Frameworks */,
+				E8ED6D461FC1921D00F01873 /* MediaPlayer.framework in Frameworks */,
+				E8ED6D441FC1920D00F01873 /* CoreVideo.framework in Frameworks */,
+				E8ED6D421FC191F200F01873 /* CoreMedia.framework in Frameworks */,
+				E8ED6D401FC191E700F01873 /* CoreGraphics.framework in Frameworks */,
+				E8ED6D3E1FC191D300F01873 /* AVFoundation.framework in Frameworks */,
+				E8ED6D3C1FC191C800F01873 /* AudioToolbox.framework in Frameworks */,
+				E8ED6D3A1FC191B200F01873 /* libbz2.tbd in Frameworks */,
+				E8ED6D381FC191A000F01873 /* libz.tbd in Frameworks */,
+				2C1C6B8B475E2BB0051E4004 /* libPods-zhibo.a in Frameworks */,
+				E8ED6D361FC1914400F01873 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BDF71FC0872200602198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BE021FC0872200602198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD21D7BABB88B0963C770CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D21B88682BEB654D40731B0 /* Pods-zhibo.debug.xcconfig */,
+				9885AE8E465601F2A4E7F760 /* Pods-zhibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		908D6BA4DA14D1E799583363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED6D4D1FC1925300F01873 /* VideoToolbox.framework */,
+				E8ED6D4B1FC1923E00F01873 /* QuartzCore.framework */,
+				E8ED6D491FC1923600F01873 /* OpenGLES.framework */,
+				E8ED6D471FC1922E00F01873 /* MobileCoreServices.framework */,
+				E8ED6D451FC1921D00F01873 /* MediaPlayer.framework */,
+				E8ED6D431FC1920D00F01873 /* CoreVideo.framework */,
+				E8ED6D411FC191F200F01873 /* CoreMedia.framework */,
+				E8ED6D3F1FC191E700F01873 /* CoreGraphics.framework */,
+				E8ED6D3D1FC191D300F01873 /* AVFoundation.framework */,
+				E8ED6D3B1FC191C800F01873 /* AudioToolbox.framework */,
+				E8ED6D391FC191B200F01873 /* libbz2.tbd */,
+				E8ED6D371FC191A000F01873 /* libz.tbd */,
+				BBCEC847FF78C456879620FE /* libPods-zhibo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E806BDD81FC0872200602198 = {
+			isa = PBXGroup;
+			children = (
+				E806BDE31FC0872200602198 /* zhibo */,
+				E806BDFD1FC0872200602198 /* zhiboTests */,
+				E806BE081FC0872200602198 /* zhiboUITests */,
+				E806BDE21FC0872200602198 /* Products */,
+				6AD21D7BABB88B0963C770CA /* Pods */,
+				908D6BA4DA14D1E799583363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E806BDE21FC0872200602198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E806BDE11FC0872200602198 /* zhibo.app */,
+				E806BDFA1FC0872200602198 /* zhiboTests.xctest */,
+				E806BE051FC0872200602198 /* zhiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E806BDE31FC0872200602198 /* zhibo */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED6D351FC1914400F01873 /* IJKMediaFramework.framework */,
+				E806BDE71FC0872200602198 /* AppDelegate.h */,
+				E806BDE81FC0872200602198 /* AppDelegate.m */,
+				E806BDEA1FC0872200602198 /* ViewController.h */,
+				E806BDEB1FC0872200602198 /* ViewController.m */,
+				E806BDED1FC0872200602198 /* Main.storyboard */,
+				E806BDF01FC0872200602198 /* Assets.xcassets */,
+				E806BDF21FC0872200602198 /* LaunchScreen.storyboard */,
+				E806BDF51FC0872200602198 /* Info.plist */,
+				E806BDE41FC0872200602198 /* Supporting Files */,
+				E8E047E91FD2B10200E7EB4F /* LYMAnchorListViewController.h */,
+				E8E047EA1FD2B10200E7EB4F /* LYMAnchorListViewController.m */,
+				E8E047EC1FD2B61700E7EB4F /* LYMListItem.h */,
+				E8E047ED1FD2B61700E7EB4F /* LYMListItem.m */,
+				E8E047EF1FD2B79800E7EB4F /* LYMCreatorItem.h */,
+				E8E047F01FD2B79800E7EB4F /* LYMCreatorItem.m */,
+				E8C523D11FD552A80008B6A2 /* LYMAnchorListTableViewCell.h */,
+				E8C523D21FD552A80008B6A2 /* LYMAnchorListTableViewCell.m */,
+				E8C523D31FD552A80008B6A2 /* LYMAnchorListTableViewCell.xib */,
+			);
+			path = zhibo;
+			sourceTree = "<group>";
+		};
+		E806BDE41FC0872200602198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E806BDE51FC0872200602198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E806BDFD1FC0872200602198 /* zhiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				E806BDFE1FC0872200602198 /* zhiboTests.m */,
+				E806BE001FC0872200602198 /* Info.plist */,
+			);
+			path = zhiboTests;
+			sourceTree = "<group>";
+		};
+		E806BE081FC0872200602198 /* zhiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E806BE091FC0872200602198 /* zhiboUITests.m */,
+				E806BE0B1FC0872200602198 /* Info.plist */,
+			);
+			path = zhiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E806BDE01FC0872200602198 /* zhibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E806BE0E1FC0872200602198 /* Build configuration list for PBXNativeTarget "zhibo" */;
+			buildPhases = (
+				B4C37173BF15DBDABE47D54D /* [CP] Check Pods Manifest.lock */,
+				E806BDDD1FC0872200602198 /* Sources */,
+				E806BDDE1FC0872200602198 /* Frameworks */,
+				E806BDDF1FC0872200602198 /* Resources */,
+				03D8F93F4A71FC120A8B9231 /* [CP] Embed Pods Frameworks */,
+				AA79BC9E814ADB3A8367ADD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhibo;
+			productName = zhibo;
+			productReference = E806BDE11FC0872200602198 /* zhibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E806BDF91FC0872200602198 /* zhiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E806BE111FC0872200602198 /* Build configuration list for PBXNativeTarget "zhiboTests" */;
+			buildPhases = (
+				E806BDF61FC0872200602198 /* Sources */,
+				E806BDF71FC0872200602198 /* Frameworks */,
+				E806BDF81FC0872200602198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E806BDFC1FC0872200602198 /* PBXTargetDependency */,
+			);
+			name = zhiboTests;
+			productName = zhiboTests;
+			productReference = E806BDFA1FC0872200602198 /* zhiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E806BE041FC0872200602198 /* zhiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E806BE141FC0872200602198 /* Build configuration list for PBXNativeTarget "zhiboUITests" */;
+			buildPhases = (
+				E806BE011FC0872200602198 /* Sources */,
+				E806BE021FC0872200602198 /* Frameworks */,
+				E806BE031FC0872200602198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E806BE071FC0872200602198 /* PBXTargetDependency */,
+			);
+			name = zhiboUITests;
+			productName = zhiboUITests;
+			productReference = E806BE051FC0872200602198 /* zhiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E806BDD91FC0872200602198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李勇猛";
+				TargetAttributes = {
+					E806BDE01FC0872200602198 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					E806BDF91FC0872200602198 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E806BDE01FC0872200602198;
+					};
+					E806BE041FC0872200602198 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E806BDE01FC0872200602198;
+					};
+				};
+			};
+			buildConfigurationList = E806BDDC1FC0872200602198 /* Build configuration list for PBXProject "zhibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E806BDD81FC0872200602198;
+			productRefGroup = E806BDE21FC0872200602198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E806BDE01FC0872200602198 /* zhibo */,
+				E806BDF91FC0872200602198 /* zhiboTests */,
+				E806BE041FC0872200602198 /* zhiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E806BDDF1FC0872200602198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806BDF41FC0872200602198 /* LaunchScreen.storyboard in Resources */,
+				E806BDF11FC0872200602198 /* Assets.xcassets in Resources */,
+				E806BDEF1FC0872200602198 /* Main.storyboard in Resources */,
+				E8C523D51FD552A80008B6A2 /* LYMAnchorListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BDF81FC0872200602198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BE031FC0872200602198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D8F93F4A71FC120A8B9231 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhibo/Pods-zhibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA79BC9E814ADB3A8367ADD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhibo/Pods-zhibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C37173BF15DBDABE47D54D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E806BDDD1FC0872200602198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C523D41FD552A80008B6A2 /* LYMAnchorListTableViewCell.m in Sources */,
+				E8E047EB1FD2B10200E7EB4F /* LYMAnchorListViewController.m in Sources */,
+				E806BDEC1FC0872200602198 /* ViewController.m in Sources */,
+				E8E047F11FD2B79800E7EB4F /* LYMCreatorItem.m in Sources */,
+				E8E047EE1FD2B61700E7EB4F /* LYMListItem.m in Sources */,
+				E806BDE91FC0872200602198 /* AppDelegate.m in Sources */,
+				E806BDE61FC0872200602198 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BDF61FC0872200602198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806BDFF1FC0872200602198 /* zhiboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E806BE011FC0872200602198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806BE0A1FC0872200602198 /* zhiboUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E806BDFC1FC0872200602198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E806BDE01FC0872200602198 /* zhibo */;
+			targetProxy = E806BDFB1FC0872200602198 /* PBXContainerItemProxy */;
+		};
+		E806BE071FC0872200602198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E806BDE01FC0872200602198 /* zhibo */;
+			targetProxy = E806BE061FC0872200602198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E806BDED1FC0872200602198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E806BDEE1FC0872200602198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E806BDF21FC0872200602198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E806BDF31FC0872200602198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E806BE0C1FC0872200602198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E806BE0D1FC0872200602198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E806BE0F1FC0872200602198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D21B88682BEB654D40731B0 /* Pods-zhibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zhibo",
+				);
+				INFOPLIST_FILE = zhibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E806BE101FC0872200602198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9885AE8E465601F2A4E7F760 /* Pods-zhibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zhibo",
+				);
+				INFOPLIST_FILE = zhibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E806BE121FC0872200602198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhibo.app/zhibo";
+			};
+			name = Debug;
+		};
+		E806BE131FC0872200602198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhibo.app/zhibo";
+			};
+			name = Release;
+		};
+		E806BE151FC0872200602198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhibo;
+			};
+			name = Debug;
+		};
+		E806BE161FC0872200602198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dasda.zhiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E806BDDC1FC0872200602198 /* Build configuration list for PBXProject "zhibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806BE0C1FC0872200602198 /* Debug */,
+				E806BE0D1FC0872200602198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E806BE0E1FC0872200602198 /* Build configuration list for PBXNativeTarget "zhibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806BE0F1FC0872200602198 /* Debug */,
+				E806BE101FC0872200602198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E806BE111FC0872200602198 /* Build configuration list for PBXNativeTarget "zhiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806BE121FC0872200602198 /* Debug */,
+				E806BE131FC0872200602198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E806BE141FC0872200602198 /* Build configuration list for PBXNativeTarget "zhiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806BE151FC0872200602198 /* Debug */,
+				E806BE161FC0872200602198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E806BDD91FC0872200602198 /* Project object */;
+}

@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target "zhibo" do
+pod 'AFNetworking'
+pod 'YYModel'
+end
